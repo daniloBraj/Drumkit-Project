@@ -6,6 +6,7 @@ body{
 h1{
   text-align: center;
 }
+
 h3{
   text-align: center;
 }
@@ -17,10 +18,11 @@ h3{
 }
 
 .soundButtons button {
-  /* Define your desired appearance */
   display: grid;
-  background-color: #007c34; /* Green */
-  border: none;
+  background-color: #007c34; 
+  border-style: solid;
+  border-width: 2px;
+  border: black;
   color: rgb(0, 0, 0);
   padding: 100px 60px;
   text-align: center;
@@ -32,5 +34,5 @@ h3{
 
 .soundButtons button:hover {
   /* Define the appearance on hover */
-  background-color: #00ff4c; /* Darker green */
+  background-color: #00ff4c;
 }
