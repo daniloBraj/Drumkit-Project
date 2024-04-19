@@ -1,0 +1,32 @@
+body{
+    background-color: #255731;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+
+.soundButtons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+.soundButtons{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #255731;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+.soundButtons:hover {
+    background-color: #095c14;
+  }
