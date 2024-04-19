@@ -1,5 +1,5 @@
 body{
-    background-color: #255731;
+    background-color: #00c3ff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -10,23 +10,27 @@ h3{
   text-align: center;
 }
 
-.soundButtons{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-  }
-  
-.soundButtons{
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #255731;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-.soundButtons:hover {
-    background-color: #095c14;
-  }
+.soundButtons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-gap: 33px; /* Gap between buttons */
+}
+
+.soundButtons button {
+  /* Define your desired appearance */
+  display: grid;
+  background-color: #007c34; /* Green */
+  border: none;
+  color: white;
+  padding: 100px 60px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 32px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.soundButtons button:hover {
+  /* Define the appearance on hover */
+  background-color: #00ff4c; /* Darker green */
+}
